@@ -1,0 +1,46 @@
+{
+    "removeduplicate.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:56:15",
+            "keyStrokeInfo": "#",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:56:17",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:56:48",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:56:50",
+            "keyStrokeInfo": "  l=[]\r\n    for ch in text:\r\n        if ch not in l:\r\n            l.append(ch)\r\n    output=''.join(l)\r\n    return output",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:56:54",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:57:03",
+            "keyStrokeInfo": "\t",
+            "position": "14,1"
+        }
+    ]
+}
