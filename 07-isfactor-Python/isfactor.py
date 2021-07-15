@@ -6,4 +6,11 @@
 
 
 def fun_isfactor(f, n):
-	
+    if(n == 0):
+        return True
+    elif(f == 0):
+        return False
+    elif(abs(n) % abs(f) == 0):
+        return True
+    else:
+        return False

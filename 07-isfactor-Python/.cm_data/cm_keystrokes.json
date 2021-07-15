@@ -1,0 +1,109 @@
+{
+    "isfactor.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:11",
+            "keyStrokeInfo": "if(n == 0):\r\n\t\t\t\treturn True\r\n\t\telif(f == 0):\r\n\t\t\t\treturn False\r\n\t\telif(abs(n) % abs(f) == 0):\r\n\t\t\t\treturn True\r\n\t\telse:\r\n\t\t\t\treturn False\r\n",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:11",
+            "keyStrokeInfo": "    ",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:14",
+            "keyStrokeInfo": "",
+            "position": "10,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:15",
+            "keyStrokeInfo": "",
+            "position": "10,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:16",
+            "keyStrokeInfo": "",
+            "position": "10,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:21",
+            "keyStrokeInfo": "",
+            "position": "12,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:22",
+            "keyStrokeInfo": "",
+            "position": "12,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:26",
+            "keyStrokeInfo": "",
+            "position": "11,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:28",
+            "keyStrokeInfo": "",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:31",
+            "keyStrokeInfo": "",
+            "position": "15,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:35",
+            "keyStrokeInfo": "",
+            "position": "14,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:35",
+            "keyStrokeInfo": "",
+            "position": "14,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:38",
+            "keyStrokeInfo": "",
+            "position": "16,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:38",
+            "keyStrokeInfo": "",
+            "position": "16,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:10:49",
+            "keyStrokeInfo": "    ",
+            "position": "16,1"
+        }
+    ]
+}
