@@ -1,0 +1,60 @@
+{
+    "pythondictionaries.py": [
+        {
+            "operation": "DELETE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:34",
+            "keyStrokeInfo": "",
+            "position": "34,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:36",
+            "keyStrokeInfo": "def sortUSA():\r\n    '''Return all the cities in the USA in alphabetical order'''\r\n    return sorted(locations['North America']['USA'])\r\n    \r\n    \r\ndef alphaAsia():\r\n    '''Return all the cities in Asia continent in alphabetical order'''\r\n    cities = list()\r\n    for i in locations['Asia']:\r\n        for j in locations['Asia'][i]:\r\n            cities.extend([ j+' - '+i])\r\n    return sorted(cities)\r\n\r\n# Note: Check for test cases to understand the output format.\r\nlocations = {'North America': {'USA': ['Mountain View']}}\r\nlocations['Asia'] = {'India' : ['Bangalore']}\r\nlocations['North America']['USA'].append('Atlanta')\r\nlocations['Atlanta'] = {'Atlanta' : ['Cairo']}\r\nlocations['Asia']['China'] = ['Shanghai']",
+            "position": "34,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:41",
+            "keyStrokeInfo": "",
+            "position": "38,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:42",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "38,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:43",
+            "keyStrokeInfo": "",
+            "position": "39,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:47",
+            "keyStrokeInfo": "",
+            "position": "33,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:47",
+            "keyStrokeInfo": "",
+            "position": "32,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:24:48",
+            "keyStrokeInfo": "\r\n",
+            "position": "32,1"
+        }
+    ]
+}
