@@ -6,4 +6,10 @@
 
 def fun_getinrange(x, bound1, bound2):
 	# your code goes here
-	return -1
+	r=(bound1,bound2)
+	if x<min(r):
+		return min(r)
+	elif x>max(r):
+		return max(r)
+	else:
+		return x
