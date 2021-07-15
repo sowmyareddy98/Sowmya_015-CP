@@ -1,0 +1,25 @@
+{
+    "circlesintersect.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 19:35:14",
+            "keyStrokeInfo": "#",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 19:35:16",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 19:35:27",
+            "keyStrokeInfo": "dist = (x2 - x1) * (x2 - x1) + (x2 - x1) * (y2 - y1);\r\n\tif (dist <= (r1+r2)):\r\n\t\treturn True\r\n\telse:\r\n\t\treturn False",
+            "position": "10,2"
+        }
+    ]
+}
