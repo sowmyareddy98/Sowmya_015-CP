@@ -1,0 +1,39 @@
+{
+    "queues.py": [
+        {
+            "operation": "DELETE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 20:31:14",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 20:31:24",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None):\r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        #pass\r\n        self.storage.append(new_element)\r\n\r\n    def peek(self):\r\n        #pass \r\n        return self.storage[0]\r\n\r\n    def dequeue(self):\r\n        #pass\r\n        return self.storage.pop(0)",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 20:32:02",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None):\r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        #pass\r\n        self.storage.append(new_element)\r\n\r\n    def peek(self):\r\n        #pass \r\n        return self.storage[0]\r\n\r\n    def dequeue(self):\r\n        #pass\r\n        return self.storage.pop(0)",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 20:32:07",
+            "keyStrokeInfo": "\t",
+            "position": "21,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 20:33:08",
+            "keyStrokeInfo": "\"\"\"Make a Queue class using a list!\r\nHint: You can use any Python list method\r\nyou'd like! Try to write each one in as \r\nfew lines as possible.\r\nMake sure you pass the test cases too!\"\"\"\r\n\r\nclass Queue:\r\n    def __init__(self, head=None):\r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        #pass\r\n        self.storage.append(new_element)\r\n\r\n    def peek(self):\r\n        #pass \r\n        return self.storage[0]\r\n\r\n    def dequeue(self):\r\n        #pass\r\n        return self.storage.pop(0)",
+            "position": "1,1"
+        }
+    ]
+}
