@@ -1,0 +1,81 @@
+{
+    "mostfrequentdigit.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:33",
+            "keyStrokeInfo": "#",
+            "position": "7,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:34",
+            "keyStrokeInfo": "\r\n ",
+            "position": "7,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:36",
+            "keyStrokeInfo": "\t",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:37",
+            "keyStrokeInfo": "def c(x,d):\r\n    count=0\r\n    while(x>0):\r\n        if(x%10==d):\r\n            count+=1\r\n        x=x//10\r\n    return count\r\ndef mostfrequentdigit(n):\r\n    n=abs(n)\r\n    digit=0\r\n    max=0\r\n    count=0\r\n    for i in range(10):\r\n        count= c(n,i)\r\n        if(count>max):\r\n            max=count\r\n            digit=i\r\n        \r\n    return digit",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:37",
+            "keyStrokeInfo": "    ",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:52",
+            "keyStrokeInfo": "",
+            "position": "5,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:53",
+            "keyStrokeInfo": "",
+            "position": "5,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:53",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:53",
+            "keyStrokeInfo": "",
+            "position": "4,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:56",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:23:58",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        }
+    ]
+}
