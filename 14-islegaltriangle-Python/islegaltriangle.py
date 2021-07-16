@@ -7,4 +7,5 @@
 
 def islegaltriangle(s1, s2, s3):
 	# your code goes here
-	pass
+	#pass
+	  return ( (s1+s2 > s3) and (s2+s3 > s1) and (s1+s3 > s2) )
