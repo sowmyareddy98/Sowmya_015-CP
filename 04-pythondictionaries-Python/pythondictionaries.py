@@ -47,5 +47,4 @@ def alphaAsia():
 locations = {'North America': {'USA': ['Mountain View']}}
 locations['Asia'] = {'India' : ['Bangalore']}
 locations['North America']['USA'].append('Atlanta')
-locations['Atlanta'] = {'Atlanta' : ['Cairo']}
 locations['Asia']['China'] = ['Shanghai']
