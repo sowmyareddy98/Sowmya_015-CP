@@ -1,0 +1,46 @@
+{
+    "hasconsecutivedigits.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:18",
+            "keyStrokeInfo": "#",
+            "position": "7,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:20",
+            "keyStrokeInfo": "\r\n ",
+            "position": "7,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:21",
+            "keyStrokeInfo": "\t",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:23",
+            "keyStrokeInfo": " n = abs(n)\r\n    prevDigit = -1\r\n    while (n > 0):\r\n        onesDigit = n%10\r\n        n //= 10\r\n        if (prevDigit == onesDigit):\r\n            return True\r\n        prevDigit = onesDigit\r\n    return False",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:25",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:26:35",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        }
+    ]
+}
