@@ -1,0 +1,81 @@
+{
+    "removeRowAndCol.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:37:47",
+            "keyStrokeInfo": "#",
+            "position": "26,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:37:54",
+            "keyStrokeInfo": "",
+            "position": "27,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:37:57",
+            "keyStrokeInfo": "\r\n",
+            "position": "27,29"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:08",
+            "keyStrokeInfo": " L.pop(row)\r\n    for i in range(len(L)):\r\n        L[i].pop(col)\r\n    return(L)  \r\nL=[ [ 2, 3, 4, 5],\r\n        [ 8, 7, 6, 5],\r\n        [ 0, 1, 2, 3] ]\r\n\r\nrow=1\r\ncol=2\r\nprint(removeRowAndCol(L,row,col))",
+            "position": "28,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:24",
+            "keyStrokeInfo": "",
+            "position": "29,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:27",
+            "keyStrokeInfo": "",
+            "position": "30,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:34",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:38",
+            "keyStrokeInfo": "   ",
+            "position": "28,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:42",
+            "keyStrokeInfo": "    ",
+            "position": "29,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:44",
+            "keyStrokeInfo": "    ",
+            "position": "30,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:38:46",
+            "keyStrokeInfo": "    ",
+            "position": "31,1"
+        }
+    ]
+}
