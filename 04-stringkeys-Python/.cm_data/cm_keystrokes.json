@@ -1,0 +1,88 @@
+{
+    "stringkeys.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:17",
+            "keyStrokeInfo": "#",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:20",
+            "keyStrokeInfo": "#",
+            "position": "21,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:22",
+            "keyStrokeInfo": "#",
+            "position": "27,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:35",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "14,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:37",
+            "keyStrokeInfo": " d=self.calculate_hash_value(string)\r\n        self.table.insert(d,string)\r\n        return -1",
+            "position": "15,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:41",
+            "keyStrokeInfo": "",
+            "position": "15,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:38:44",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "24,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:39:02",
+            "keyStrokeInfo": " d=self.calculate_hash_value(string)\r\n        if(self.table[d]==None or self.table[d]!=string):\r\n            return -1\r\n        else:\r\n            return d",
+            "position": "25,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:39:04",
+            "keyStrokeInfo": "",
+            "position": "25,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:39:08",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "35,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:39:17",
+            "keyStrokeInfo": "  Hash=(ord(string[0])*100)+ ord(string[1])\r\n        return Hash",
+            "position": "36,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 16:39:19",
+            "keyStrokeInfo": "",
+            "position": "36,9"
+        }
+    ]
+}
