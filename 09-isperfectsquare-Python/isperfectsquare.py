@@ -5,10 +5,8 @@
 
 import math
 def isperfectsquare(n):
-	# your code goes here
-	#pass
-	sqrt=math.sqrt(abs(n))
-	if (isinstance(n,int) and (n>=0) and n == (sqrt**2)):
-		return True
+	if ((type(n) == int or float) and (n>=0)):
+		 sqrt1=math.sqrt(n)
+		 return n == (sqrt1**2)
 	else:
-		return False
+		 return False
