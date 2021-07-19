@@ -1,0 +1,67 @@
+{
+    "get_kth_digit.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:10",
+            "keyStrokeInfo": "",
+            "position": "9,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:11",
+            "keyStrokeInfo": "return (abs(digit)//(10**(k))%10)",
+            "position": "9,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:19",
+            "keyStrokeInfo": "",
+            "position": "9,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:19",
+            "keyStrokeInfo": "",
+            "position": "9,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:20",
+            "keyStrokeInfo": "",
+            "position": "9,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:20",
+            "keyStrokeInfo": "",
+            "position": "9,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:20",
+            "keyStrokeInfo": "",
+            "position": "9,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:20",
+            "keyStrokeInfo": "",
+            "position": "9,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:14:20",
+            "keyStrokeInfo": "",
+            "position": "9,8"
+        }
+    ]
+}
