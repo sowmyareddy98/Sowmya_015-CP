@@ -5,8 +5,15 @@
 
 import math
 def isperfectsquare(n):
-	if ((type(n) == int or float) and (n>=0)):
-		 sqrt1=math.sqrt(n)
-		 return n == (sqrt1**2)
-	else:
-		 return False
+  #n=int(n)
+  if isinstance(n, int) and n>=0:
+    return n == (math.sqrt(n)**2)
+  elif isinstance(n, int) and  n<=0:
+    return False
+  elif isinstance(n, float):
+    return False
+  elif n.isdigit():
+    n=int(n)
+    return n == (math.sqrt(n)**2)
+  else:
+    return False
