@@ -1,0 +1,39 @@
+{
+    "smallestdifference.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:57:23",
+            "keyStrokeInfo": "#",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:57:24",
+            "keyStrokeInfo": "\r\n ",
+            "position": "9,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:57:25",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:58:42",
+            "keyStrokeInfo": "if a==[]:\r\n        return -1\r\n    diff=10**20\r\n    n=len(a)\r\n    for i in range(n-1):\r\n        for j in range(i+1,n):\r\n            if abs(a[i]-a[j]) < diff:\r\n                diff = abs(a[i] -a[j])\r\n    return diff",
+            "position": "10,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:58:59",
+            "keyStrokeInfo": "\t",
+            "position": "18,1"
+        }
+    ]
+}
