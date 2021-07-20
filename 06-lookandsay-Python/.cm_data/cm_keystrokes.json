@@ -1,0 +1,39 @@
+{
+    "lookandsay.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:31:44",
+            "keyStrokeInfo": "#",
+            "position": "14,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:31:46",
+            "keyStrokeInfo": "\r\n ",
+            "position": "14,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:31:47",
+            "keyStrokeInfo": "\t",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:34:35",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 15:34:37",
+            "keyStrokeInfo": "def lookandsay(a):\r\n    # your code goes here\r\n    e=[]\r\n    # f=[]\r\n    g=0\r\n    cou=1\r\n    if(len(a)==0):\r\n        return e\r\n    for i in a:\r\n        if(i!=g):\r\n            e.append((cou,g))\r\n            g=i\r\n            cou=1\r\n        else:\r\n            cou=cou+1\r\n            \r\n    e.append((cou,i)) \r\n             \r\n    return e[1:]",
+            "position": "12,1"
+        }
+    ]
+}
