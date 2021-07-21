@@ -1,1 +1,18 @@
-{}
+{
+    "test_nthpowerfulnumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 12:37:36",
+            "keyStrokeInfo": "p",
+            "position": "26,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 12:37:37",
+            "keyStrokeInfo": "",
+            "position": "26,1"
+        }
+    ]
+}
