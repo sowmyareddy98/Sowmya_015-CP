@@ -20,6 +20,20 @@
             "keyStrokeTimeStamp": "Wed Jul 21 2021 13:15:16",
             "keyStrokeInfo": "\t",
             "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 13:58:15",
+            "keyStrokeInfo": "p",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 13:58:16",
+            "keyStrokeInfo": "",
+            "position": "13,2"
         }
     ]
 }
