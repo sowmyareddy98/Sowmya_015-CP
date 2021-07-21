@@ -1,0 +1,39 @@
+{
+    "matrixmultiply.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:15:07",
+            "keyStrokeInfo": "#",
+            "position": "8,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:15:09",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,17"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 15:37:23",
+            "keyStrokeInfo": "c1 = len(m1[0])\r\n    r2 = len(m2)\r\n\r\n    if (c1 != r2):\r\n        return None\r\n    else:\r\n        result = [[sum(a*b for a,b in zip(m1_row, m2_col))\r\n                for m2_col in zip(*m2)]\r\n                for m1_row in m1]\r\n        return result",
+            "position": "9,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 15:37:26",
+            "keyStrokeInfo": "s",
+            "position": "18,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 15:37:28",
+            "keyStrokeInfo": "",
+            "position": "18,22"
+        }
+    ]
+}
