@@ -14,7 +14,7 @@ class Element(object):
         self.next = None
         
 class LinkedList(object):
-    def __init__(self, head=None):P
+    def __init__(self, head=None):
         self.head = head
         
     def append(self, new_element):
