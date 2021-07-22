@@ -244,6 +244,13 @@
             "keyStrokeTimeStamp": "Wed Jul 21 2021 21:42:09",
             "keyStrokeInfo": "",
             "position": "11,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:24:25",
+            "keyStrokeInfo": "factor1=((left2>left1)and(left2>left1+width1))\r\n    factor2=((left1>left2)and(left1>left2+width2))\r\n    factor3=((top2>top1)and(top2>top1+height1))\r\n    factor4=((top1>top2)and(top1>top2+height2))\r\n    if(factor1 or factor2 or factor3 or factor4):\r\n        return False\r\n    else:\r\n        return True",
+            "position": "11,5"
         }
     ]
 }
