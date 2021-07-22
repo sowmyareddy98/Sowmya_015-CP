@@ -888,6 +888,20 @@
             "keyStrokeTimeStamp": "Thu Jul 22 2021 14:43:25",
             "keyStrokeInfo": "",
             "position": "16,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 17:30:14",
+            "keyStrokeInfo": "p",
+            "position": "19,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 17:30:16",
+            "keyStrokeInfo": "",
+            "position": "19,14"
         }
     ]
 }
