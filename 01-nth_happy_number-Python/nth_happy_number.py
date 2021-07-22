@@ -15,51 +15,44 @@
 # assert(nth_happy_number(8) == 31)
 
 def numSquareSum(n):
-    squareSum = 0;
-    while(n):
-        squareSum += (n % 10) * (n % 10);
-        n = int(n / 10);
-    return squareSum;
+	squareSum = 0;
+	while(n):
+		squareSum += (n % 10) * (n % 10);
+		n = int(n / 10);
+	return squareSum;
 
 def ishappynumber(n):
-     
-    # initialize slow
-    # and fast by n
-    slow = n;
-    fast = n;
-    while(True):
-         
-        # move slow number
-        # by one iteration
-        slow = numSquareSum(slow);
+	 
+	# initialize slow
+	# and fast by n
+	slow = n;
+	fast = n;
+	while(True):
+		 
+		# move slow number
+		# by one iteration
+		slow = numSquareSum(slow);
  
-        # move fast number
-        # by two iteration
-        fast = numSquareSum(numSquareSum(fast));
-        if(slow != fast):
-            continue;
-        else:
-            break;
+		# move fast number
+		# by two iteration
+		fast = numSquareSum(numSquareSum(fast));
+		if(slow != fast):
+			continue;
+		else:
+			break;
  
-    # if both number meet at 1,
-    # then return true
-    return (slow == 1);
+	# if both number meet at 1,
+	# then return true
+	return (slow == 1);
 
 
 def nth_happy_number(n):
 	#return 0
-	found=1
-	guess=1
-	count=0
-	while(found):
-		if(ishappynumber(guess) and (numSquareSum(guess))):
-			
-			if(n==count):
-				found=0
-				return guess
-			
-			guess=guess+1
-			count+=1
-			
-		else:
-			guess=guess+1
+	found = 0
+	guess = 0
+	while (found <= abs(n)):
+		guess += 1
+		if(ishappynumber(guess) and numSquareSum(guess)):
+			found += 1
+	return guess
+
