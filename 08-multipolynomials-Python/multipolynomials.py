@@ -5,6 +5,7 @@
 # 5), and:    (2x**2 + 3)(4x + 5) = 8x**3 + 10x**2 + 12x + 15
 # And so this returns the list [8, 10, 12, 15].
 
+
 def multiplyPolynomials(p1, p2):
     len_a=len(p1)
     len_b=len(p2)
@@ -18,4 +19,9 @@ def multiplyPolynomials(p1, p2):
         for j in range(len_b):
             result[i+j]+=p1[i]*p2[j]
     return result
-    
+
+
+# Write your own test cases
+p1=[2,0,3]
+p2=[4,5]
+print(multiplyPolynomials(p1,p2))
