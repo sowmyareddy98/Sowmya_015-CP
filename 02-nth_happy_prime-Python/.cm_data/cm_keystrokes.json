@@ -1,0 +1,53 @@
+{
+    "nth_happy_prime.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:09:10",
+            "keyStrokeInfo": "#",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:09:12",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:09:13",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:09:51",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 41,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:09:52",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if (n < 2):\r\n        return False\r\n    if (n == 2):\r\n        return True\r\n    if (n % 2 == 0):\r\n        return False\r\n    maxFactor = round(n**0.5)\r\n    for factor in range(3,maxFactor+1,2):\r\n        if (n % factor == 0):\r\n            return False\r\n    return True\r\n#helper function to find the squares of digits\r\ndef numSquareSum(n): \r\n    squareSum = 0; \r\n    while(n): \r\n        squareSum += (n % 10) * (n % 10); \r\n        n = int(n / 10); \r\n    return squareSum; \r\n  \r\n#to find out if it is a happy number or not\r\ndef isHappynumber(n): \r\n  \r\n\r\n    slow = n; \r\n    fast = n; \r\n    while(True): \r\n          \r\n    \r\n   \r\n        slow = numSquareSum(slow); \r\n\r\n        fast = numSquareSum(numSquareSum(fast)); \r\n        if(slow != fast): \r\n            continue; \r\n        else: \r\n            break; \r\n  \r\n\r\n    return (slow == 1); \r\n#finding nth happy primes",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:10:10",
+            "keyStrokeInfo": "found = 0\r\n    guess = 0\r\n    while (found <= n):\r\n        guess += 1\r\n        #print(guess)\r\n        if ((isHappynumber(guess)) and (isPrime(guess))):\r\n            found += 1\r\n            #print(guess)\r\n    return guess",
+            "position": "48,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 15:10:33",
+            "keyStrokeInfo": "\t",
+            "position": "56,1"
+        }
+    ]
+}
