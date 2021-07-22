@@ -1042,6 +1042,55 @@
             "keyStrokeTimeStamp": "Thu Jul 22 2021 12:24:10",
             "keyStrokeInfo": "\t",
             "position": "57,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 30,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 13:59:59",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:00:01",
+            "keyStrokeInfo": "def Happynum(n):\r\n\tsum = 0\r\n\twhile(n!=0):\r\n\t\tsum += (n%10)**2\r\n\t\tn//=10\r\n\tif sum == 1:\r\n\t\treturn True\r\n\telif sum<10:\r\n\t\treturn False\r\n\telse:\r\n\t\treturn Happynum(sum)\r\ndef nth_happy_number(n):\r\n\tf = 1\r\n\tg = 0\r\n\twhile(f<=abs(n)):\r\n\t\tg+=1\r\n\t\tif(Happynum(g)):\r\n\t\t\tf+=1\r\n\treturn g",
+            "position": "17,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:00:01",
+            "keyStrokeInfo": "    ",
+            "position": "18,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:00:07",
+            "keyStrokeInfo": "",
+            "position": "37,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:00:07",
+            "keyStrokeInfo": "",
+            "position": "37,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:01:02",
+            "keyStrokeInfo": "",
+            "position": "18,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 14:01:23",
+            "keyStrokeInfo": "\t",
+            "position": "35,1"
         }
     ]
 }
