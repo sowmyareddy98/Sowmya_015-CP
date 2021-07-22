@@ -10,4 +10,5 @@
 
 def gcd(m, n):
 	# your code goes here
-	pass
+	#pass
+	
