@@ -42,5 +42,21 @@
             "keyStrokeInfo": "\t",
             "position": "16,1"
         }
+    ],
+    "test_isrotated.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:49:08",
+            "keyStrokeInfo": "P",
+            "position": "20,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:49:09",
+            "keyStrokeInfo": "",
+            "position": "20,1"
+        }
     ]
 }
