@@ -1,0 +1,46 @@
+{
+    "isrotated.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:43:39",
+            "keyStrokeInfo": "#",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:44:50",
+            "keyStrokeInfo": "\r\n ",
+            "position": "9,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:44:51",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:44:52",
+            "keyStrokeInfo": " if len(str1) != len(str2):\r\n        return False \r\n    str3 = str1 + str1 \r\n    if (str3.count(str2)> 0):\r\n        return True\r\n    else:\r\n        return False",
+            "position": "10,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:44:54",
+            "keyStrokeInfo": "",
+            "position": "10,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:45:31",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        }
+    ]
+}
