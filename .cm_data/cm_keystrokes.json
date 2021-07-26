@@ -168,5 +168,196 @@
             "keyStrokeInfo": ")",
             "position": "27,24"
         }
+    ],
+    "interleave.py": [
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:18:20",
+            "keyStrokeInfo": "def interleave(s1, s2):\r\n    l1 = len(s1)\r\n    l2 = len(s2)\r\n    res = \"\"\r\n    if l1 >= l2:\r\n        for i in range(0,l2):\r\n            res = res +s1[i]+s2[i]\r\n        res = res +s1[l2:]\r\n    else:\r\n        for i in range(0,l1):\r\n             res = res+s1[i]+s2[i]\r\n        res=res+s2[l1:]\r\n    return res    \r\nprint(interleave(input(), input()))",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:22:54",
+            "keyStrokeInfo": "\r\n",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:20",
+            "keyStrokeInfo": "",
+            "position": "15,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:21",
+            "keyStrokeInfo": "",
+            "position": "15,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:21",
+            "keyStrokeInfo": "",
+            "position": "15,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:21",
+            "keyStrokeInfo": "",
+            "position": "15,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:21",
+            "keyStrokeInfo": "",
+            "position": "15,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:21",
+            "keyStrokeInfo": "",
+            "position": "15,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:22",
+            "keyStrokeInfo": "",
+            "position": "15,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:22",
+            "keyStrokeInfo": "p",
+            "position": "15,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:23",
+            "keyStrokeInfo": "t",
+            "position": "15,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:23",
+            "keyStrokeInfo": "o",
+            "position": "15,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:25",
+            "keyStrokeInfo": "",
+            "position": "15,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:26",
+            "keyStrokeInfo": "",
+            "position": "15,26"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:26",
+            "keyStrokeInfo": "",
+            "position": "15,25"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:26",
+            "keyStrokeInfo": "",
+            "position": "15,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:26",
+            "keyStrokeInfo": "",
+            "position": "15,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:27",
+            "keyStrokeInfo": "y",
+            "position": "15,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:27",
+            "keyStrokeInfo": "h",
+            "position": "15,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:28",
+            "keyStrokeInfo": "n",
+            "position": "15,25"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:29",
+            "keyStrokeInfo": "",
+            "position": "15,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:30",
+            "keyStrokeInfo": "",
+            "position": "15,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:51",
+            "keyStrokeInfo": "()",
+            "position": "15,26"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:52",
+            "keyStrokeInfo": "",
+            "position": "15,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:52",
+            "keyStrokeInfo": "input",
+            "position": "15,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:52",
+            "keyStrokeInfo": "",
+            "position": "15,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:23:53",
+            "keyStrokeInfo": "input()",
+            "position": "15,18"
+        }
     ]
 }
