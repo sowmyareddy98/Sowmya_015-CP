@@ -359,5 +359,21 @@
             "keyStrokeInfo": "input()",
             "position": "15,18"
         }
+    ],
+    "vowelcount.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:27:39",
+            "keyStrokeInfo": "def vowelCount(s):\r\n    Count=0\r\n    vowel=set(\"aeiouAEIOU\")\r\n    for alphabets in s:\r\n        if alphabets in vowel:\r\n            Count=Count+1\r\n    return Count\r\nprint(vowelCount(input()))",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 16:31:27",
+            "keyStrokeInfo": "def Check_Vow(string, vowels):\r\n    final = [each for each in string if each in vowels]\r\n    print(len(final))\r\n    print(final)\r\n     \r\n# Driver Code\r\nstring = \"Geeks for Geeks\"\r\nvowels = \"AaEeIiOoUu\"\r\nCheck_Vow(string, vowels);",
+            "position": "1,1"
+        }
     ]
 }
