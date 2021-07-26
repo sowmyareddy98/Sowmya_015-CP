@@ -7,4 +7,9 @@
 
 def issorted(a):
 	# your code goes here
-	pass
+	#pass
+	for i in a:
+		if a[i+1] > a[i]:
+			return True
+		else:
+			return False
