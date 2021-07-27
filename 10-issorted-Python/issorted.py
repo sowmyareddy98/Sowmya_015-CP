@@ -8,8 +8,14 @@
 def issorted(a):
 	# your code goes here
 	#pass
-	for i in a:
-		if a[i+1] > a[i]:
-			return True
-		else:
-			return False
+	count=0
+	for i in range(len(a)):
+		if(i==len(a)-1):
+			break
+		if(a[i]>a[i+1]):
+			count+=1
+	if(count==0):
+		return True
+	elif(count==len(a)-1):
+		return True
+	return False

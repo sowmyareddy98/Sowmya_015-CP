@@ -209,6 +209,34 @@
             "keyStrokeTimeStamp": "Mon Jul 26 2021 20:47:39",
             "keyStrokeInfo": "",
             "position": "15,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:19:06",
+            "keyStrokeInfo": "",
+            "position": "11,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:19:50",
+            "keyStrokeInfo": " count=0\r\n    for i in range(len(a)):\r\n        if(i==len(a)-1):\r\n            break\r\n        if(a[i]>a[i+1]):\r\n            count+=1\r\n    if(count==0):\r\n        return True\r\n    elif(count==len(a)-1):\r\n        return True\r\n    return False",
+            "position": "11,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:19:53",
+            "keyStrokeInfo": "",
+            "position": "11,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:20:03",
+            "keyStrokeInfo": "\t",
+            "position": "21,1"
         }
     ]
 }
