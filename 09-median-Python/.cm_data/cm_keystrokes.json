@@ -35,5 +35,21 @@
             "keyStrokeInfo": "\t",
             "position": "19,1"
         }
+    ],
+    "test_median.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 20:37:23",
+            "keyStrokeInfo": "p",
+            "position": "18,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 20:37:24",
+            "keyStrokeInfo": "",
+            "position": "18,1"
+        }
     ]
 }
