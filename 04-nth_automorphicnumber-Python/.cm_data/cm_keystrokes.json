@@ -419,6 +419,20 @@
             "keyStrokeTimeStamp": "Tue Jul 27 2021 17:13:11",
             "keyStrokeInfo": "",
             "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:15:22",
+            "keyStrokeInfo": "P",
+            "position": "23,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:15:24",
+            "keyStrokeInfo": "",
+            "position": "23,13"
         }
     ]
 }
