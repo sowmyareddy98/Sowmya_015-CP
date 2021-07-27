@@ -1,0 +1,179 @@
+{
+    "binarytree.py": [
+        {
+            "operation": "PASTE",
+            "lines": 40,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:25:40",
+            "keyStrokeInfo": "class Node(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def _init_(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return self.preorder_search(self.root,find_val)\r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        return self.preorder_print(self.root,\"\")[:-1]\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return start.value == find_val or self.preorder_search(start.right,find_val) if start else False\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if start:\r\n            traversal += (str(start.value) + \"-\")\r\n            traversal = self.preorder_print(start.left,traversal)\r\n            traversal = self.preorder_print(start.right,traversal)\r\n            return traversal",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 36,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:07",
+            "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def __init__(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        # Your code goes here\r\n        pass\r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        pass\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        pass\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        pass\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:15",
+            "keyStrokeInfo": "#",
+            "position": "16,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:17",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "16,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:35",
+            "keyStrokeInfo": " return self.preorder_search(self.root,find_val)",
+            "position": "17,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:39",
+            "keyStrokeInfo": "",
+            "position": "17,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:42",
+            "keyStrokeInfo": "3",
+            "position": "23,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:43",
+            "keyStrokeInfo": "",
+            "position": "23,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:44",
+            "keyStrokeInfo": "3",
+            "position": "23,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:46",
+            "keyStrokeInfo": "",
+            "position": "23,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:47",
+            "keyStrokeInfo": "#",
+            "position": "23,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:48",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "23,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:26:59",
+            "keyStrokeInfo": "v",
+            "position": "24,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:00",
+            "keyStrokeInfo": "",
+            "position": "24,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:01",
+            "keyStrokeInfo": "    return self.preorder_print(self.root,\"\")[:-1]",
+            "position": "24,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:03",
+            "keyStrokeInfo": "",
+            "position": "24,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:20",
+            "keyStrokeInfo": "#",
+            "position": "31,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:22",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "31,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:23",
+            "keyStrokeInfo": "return start.value == find_val or self.preorder_search(start.right,find_val) if start else False",
+            "position": "32,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:30",
+            "keyStrokeInfo": "#",
+            "position": "39,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:31",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "39,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:51",
+            "keyStrokeInfo": " if start:\r\n            traversal += (str(start.value) + \"-\")\r\n            traversal = self.preorder_print(start.left,traversal)\r\n            traversal = self.preorder_print(start.right,traversal)\r\n            return traversal",
+            "position": "40,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:51",
+            "keyStrokeInfo": "    ",
+            "position": "41,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:55",
+            "keyStrokeInfo": "",
+            "position": "41,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:27:58",
+            "keyStrokeInfo": "",
+            "position": "40,9"
+        }
+    ]
+}
