@@ -1,0 +1,137 @@
+{
+    "nth_carolprime.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:17",
+            "keyStrokeInfo": "",
+            "position": "13,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:17",
+            "keyStrokeInfo": "",
+            "position": "13,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:17",
+            "keyStrokeInfo": "",
+            "position": "13,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:18",
+            "keyStrokeInfo": "",
+            "position": "13,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:18",
+            "keyStrokeInfo": "",
+            "position": "13,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:18",
+            "keyStrokeInfo": "",
+            "position": "13,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:18",
+            "keyStrokeInfo": "",
+            "position": "13,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:18",
+            "keyStrokeInfo": "",
+            "position": "13,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:21",
+            "keyStrokeInfo": "\r\n",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 24,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:24",
+            "keyStrokeInfo": "def isPrime(x):\r\n    if(x<2):\r\n        return False\r\n    if(x<=3):\r\n        return True\r\n    if(x%2==0 or x%3==0):\r\n        return False\r\n    i=5\r\n    while(i*i<=x):\r\n        if(x%i==0 or x%(i+2)==0):\r\n            return False\r\n        i=i+6\r\n    return True\r\ndef carol(x):\r\n    result=(2**x)-1\r\n    return result*result-2\r\ndef nthCarolPrime(x):\r\n    p,q=0,0\r\n    while(p<=x):\r\n        q+=1\r\n        c=carol(q)\r\n        if(isPrime(c)):\r\n            p+=1\r\n    return c",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:40",
+            "keyStrokeInfo": "fun_nth_carolprime(n):",
+            "position": "27,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:45",
+            "keyStrokeInfo": "",
+            "position": "36,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:48",
+            "keyStrokeInfo": "",
+            "position": "27,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:49",
+            "keyStrokeInfo": "X",
+            "position": "27,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:54",
+            "keyStrokeInfo": "\r\n",
+            "position": "27,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:06:57",
+            "keyStrokeInfo": "\r\n",
+            "position": "24,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:07:08",
+            "keyStrokeInfo": "\t",
+            "position": "39,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:07:14",
+            "keyStrokeInfo": "",
+            "position": "29,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 09:07:14",
+            "keyStrokeInfo": "x",
+            "position": "29,24"
+        }
+    ]
+}
