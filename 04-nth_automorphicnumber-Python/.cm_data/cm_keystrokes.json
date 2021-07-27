@@ -1,0 +1,368 @@
+{
+    "nthautomorphicnumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:46:48",
+            "keyStrokeInfo": "#",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:46:53",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:46:54",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 22,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:27",
+            "keyStrokeInfo": "def Automorphic(n):\r\n    z=n\r\n    a=n**2\r\n    total=0\r\n    while (z>0):\r\n        z=z//10\r\n        total=total+1\r\n        if(z==0):\r\n            break\r\n    b=a%(10**total)\r\n    if(b==n):\r\n        return b\r\n    return False\r\n\r\ndef nthAutomorphicNumber(n):\r\n    total=2\r\n    i=1\r\n    while (total<=n):\r\n        if(Automorphic(i)):\r\n          total=total+1\r\n        i=i+1\r\n    return i-1",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:27",
+            "keyStrokeInfo": "    ",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:31",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:33",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:42",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:42",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:51",
+            "keyStrokeInfo": "\r\n",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:52",
+            "keyStrokeInfo": "    ",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:52",
+            "keyStrokeInfo": "    ",
+            "position": "10,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:48:53",
+            "keyStrokeInfo": "def Automorphic(n):",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:51:38",
+            "keyStrokeInfo": "",
+            "position": "23,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:51:38",
+            "keyStrokeInfo": "n",
+            "position": "23,19"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:52:43",
+            "keyStrokeInfo": "nthautomorphicnumbers",
+            "position": "23,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:52:52",
+            "keyStrokeInfo": "",
+            "position": "23,26"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:17",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:30",
+            "keyStrokeInfo": "def nthautomorphicnumbers(n):",
+            "position": "23,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:33",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:35",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:39",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:40",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:40",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:55:41",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:04",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 22,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:28",
+            "keyStrokeInfo": "def Automorphic(n):\r\n    z=n\r\n    a=n**2\r\n    total=0\r\n    while (z>0):\r\n        z=z//10\r\n        total=total+1\r\n        if(z==0):\r\n            break\r\n    b=a%(10**total)\r\n    if(b==n):\r\n        return b\r\n    return False\r\n\r\ndef nthAutomorphicNumber(n):\r\n    total=2\r\n    i=1\r\n    while (total<=n):\r\n        if(Automorphic(i)):\r\n          total=total+1\r\n        i=i+1\r\n    return i-1",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:33",
+            "keyStrokeInfo": "",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:33",
+            "keyStrokeInfo": "a",
+            "position": "20,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:40",
+            "keyStrokeInfo": "",
+            "position": "20,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:40",
+            "keyStrokeInfo": "n",
+            "position": "20,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:01:59",
+            "keyStrokeInfo": "",
+            "position": "20,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:00",
+            "keyStrokeInfo": "N",
+            "position": "20,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:00",
+            "keyStrokeInfo": "",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:00",
+            "keyStrokeInfo": "z",
+            "position": "20,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:01",
+            "keyStrokeInfo": "",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:01",
+            "keyStrokeInfo": "z",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:01",
+            "keyStrokeInfo": "z",
+            "position": "20,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:02",
+            "keyStrokeInfo": "z",
+            "position": "20,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:02",
+            "keyStrokeInfo": "z",
+            "position": "20,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:03",
+            "keyStrokeInfo": "",
+            "position": "20,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:03",
+            "keyStrokeInfo": "",
+            "position": "20,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:03",
+            "keyStrokeInfo": "",
+            "position": "20,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:03",
+            "keyStrokeInfo": "",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:04",
+            "keyStrokeInfo": "zzzz",
+            "position": "20,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:04",
+            "keyStrokeInfo": "z",
+            "position": "20,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:04",
+            "keyStrokeInfo": "z",
+            "position": "20,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:05",
+            "keyStrokeInfo": "",
+            "position": "20,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:02:05",
+            "keyStrokeInfo": "z",
+            "position": "20,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:05:56",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:08:03",
+            "keyStrokeInfo": "def range(n):\r\n    sq=int(n*n)\r\n    while n>0:\r\n        if n%10 != sq%10:\r\n            return False\r\n        n=n//10\r\n        sq=sq//10\r\n    return True\r\ndef nthautomorphicnumbers(n):\r\n    # Your code goes here\r\n    f=1\r\n    g=-1\r\n    while(f<=abs(n)):\r\n        g=g+1\r\n        if(range(g)):\r\n            f=f+1\r\n    return g",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:09:16",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        }
+    ]
+}
