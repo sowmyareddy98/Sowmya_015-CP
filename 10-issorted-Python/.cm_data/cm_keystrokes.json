@@ -238,5 +238,21 @@
             "keyStrokeInfo": "\t",
             "position": "21,1"
         }
+    ],
+    "test_issorted.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:21:50",
+            "keyStrokeInfo": "p",
+            "position": "23,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 17:21:51",
+            "keyStrokeInfo": "",
+            "position": "23,1"
+        }
     ]
 }
