@@ -790,6 +790,20 @@
             "keyStrokeTimeStamp": "Tue Jul 27 2021 15:54:02",
             "keyStrokeInfo": "class Node(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\n\r\nclass BinaryTree(object):\r\n    def _init_(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return self.preorder_search(self.root, find_val)\r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        return self.preorder_print(self.root, \"\")[:-1]\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return start.value == find_val or self.preorder_search(start.left, find_val) or self.preorder_search(start.right, find_val) if start else False\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if start:\r\n            traversal += (str(start.value) + \"-\")\r\n            traversal = self.preorder_print(start.left, traversal)\r\n            traversal = self.preorder_print(start.right, traversal)\r\n        return traversal",
             "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:39:32",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 40,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 16:39:34",
+            "keyStrokeInfo": "class Node(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def _init_(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return self.preorder_search(self.root,find_val)\r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        return self.preorder_print(self.root,\"\")[:-1]\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return start.value == find_val or self.preorder_search(start.right,find_val) if start else False\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if start:\r\n            traversal += (str(start.value) + \"-\")\r\n            traversal = self.preorder_print(start.left,traversal)\r\n            traversal = self.preorder_print(start.right,traversal)\r\n            return traversal",
+            "position": "1,1"
         }
     ]
 }
