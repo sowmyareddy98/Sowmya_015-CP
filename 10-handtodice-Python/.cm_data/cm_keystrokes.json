@@ -1,0 +1,39 @@
+{
+    "handtodice.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:19:35",
+            "keyStrokeInfo": "#",
+            "position": "10,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:19:37",
+            "keyStrokeInfo": "\r\n ",
+            "position": "10,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:19:37",
+            "keyStrokeInfo": "\t",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:20:03",
+            "keyStrokeInfo": "ab = []\r\n    while (hand > 0):\r\n        x = hand % 10 \r\n        hand = hand//10 \r\n        ab.append(x)\r\n    return(tuple(ab[::-1]))",
+            "position": "11,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:20:12",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        }
+    ]
+}
