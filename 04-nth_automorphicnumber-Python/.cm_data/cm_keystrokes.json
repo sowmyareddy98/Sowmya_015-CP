@@ -629,6 +629,13 @@
             "keyStrokeTimeStamp": "Tue Jul 27 2021 20:33:22",
             "keyStrokeInfo": "",
             "position": "23,22"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:55:20",
+            "keyStrokeInfo": "def range(n):\r\n    sq=int(n*n)\r\n    while n>0:\r\n        if n%10 != sq%10:\r\n            return False\r\n        n=n//10\r\n        sq=sq//10\r\n    return True\r\ndef nthautomorphicnumbers(n):\r\n    # Your code goes here\r\n    f=1\r\n    g=-1\r\n    while(f<=abs(n)):\r\n        g=g+1\r\n        if(range(g)):\r\n            f=f+1\r\n    return g\r\n",
+            "position": "6,1"
         }
     ]
 }
