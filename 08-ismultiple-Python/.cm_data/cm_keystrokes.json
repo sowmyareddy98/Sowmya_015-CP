@@ -1,0 +1,39 @@
+{
+    "ismultiple.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:14:00",
+            "keyStrokeInfo": "#",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:14:02",
+            "keyStrokeInfo": "\r\n ",
+            "position": "9,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:14:03",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:14:25",
+            "keyStrokeInfo": "if (m==0 and n==0):\r\n        return True\r\n    elif (m==0):\r\n        return (m%n==0)\r\n    elif(n==0):\r\n        return False\r\n    else:\r\n        return (m%n==0)",
+            "position": "10,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:14:36",
+            "keyStrokeInfo": "\t",
+            "position": "17,1"
+        }
+    ]
+}
