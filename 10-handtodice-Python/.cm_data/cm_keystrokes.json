@@ -35,5 +35,21 @@
             "keyStrokeInfo": "\t",
             "position": "16,1"
         }
+    ],
+    "test_handtodice.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:22:02",
+            "keyStrokeInfo": "p",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:22:03",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        }
     ]
 }
