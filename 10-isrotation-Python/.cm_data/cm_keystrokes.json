@@ -1,0 +1,60 @@
+{
+    "isrotation.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:58:55",
+            "keyStrokeInfo": "#",
+            "position": "10,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:13",
+            "keyStrokeInfo": "\r\n",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:13",
+            "keyStrokeInfo": "\r\n",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:14",
+            "keyStrokeInfo": "\r\n",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:17",
+            "keyStrokeInfo": "def numberofDigits(n):\r\n    cnt = 0\r\n    while n > 0:\r\n        cnt += 1\r\n        n //= 10\r\n    return cnt",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:21",
+            "keyStrokeInfo": "\r\n ",
+            "position": "18,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:22",
+            "keyStrokeInfo": "\t",
+            "position": "19,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:41",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        }
+    ]
+}
