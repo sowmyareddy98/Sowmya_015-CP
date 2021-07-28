@@ -783,6 +783,20 @@
             "keyStrokeTimeStamp": "Wed Jul 28 2021 10:33:21",
             "keyStrokeInfo": "\r\n              ",
             "position": "56,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:42:47",
+            "keyStrokeInfo": "p",
+            "position": "48,37"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:42:48",
+            "keyStrokeInfo": "",
+            "position": "48,37"
         }
     ]
 }
