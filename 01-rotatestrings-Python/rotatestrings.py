@@ -7,5 +7,6 @@
 
 
 def fun_rotatestrings(s, n):
-	return s
+	
+   return(s[-n]+s[0:-n])
 
