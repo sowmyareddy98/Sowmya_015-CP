@@ -1,0 +1,32 @@
+{
+    "applycaesarcipher.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:58:23",
+            "keyStrokeInfo": "#",
+            "position": "14,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:58:25",
+            "keyStrokeInfo": "\r\n ",
+            "position": "14,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:58:26",
+            "keyStrokeInfo": "\t",
+            "position": "15,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:58:34",
+            "keyStrokeInfo": "cipher = ''\r\n\tfor char in msg:\r\n\t\tif char == ' ':\r\n\t\t\t  cipher = cipher + char\r\n\t\telif  char.isupper():\r\n\t\t\t  cipher = cipher + chr((ord(char) + shift - 65) % 26 + 65)\r\n\t\telse:\r\n\t\t\t  cipher = cipher + chr((ord(char) + shift - 97) % 26 + 97)\r\n  \r\n\treturn cipher\r\n",
+            "position": "15,2"
+        }
+    ]
+}
