@@ -1,0 +1,25 @@
+{
+    "dicetoorderedhand.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:23:21",
+            "keyStrokeInfo": "#",
+            "position": "15,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:23:23",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 10:24:02",
+            "keyStrokeInfo": "list=[a,b,c]\r\n\tlist.sort()\r\n\tlist.reverse()\r\n\tstrings = [str(i) for i in list]\r\n\ta_string = \"\".join(strings)\r\n\tan_integer = int(a_string)\r\n\treturn an_integer",
+            "position": "16,2"
+        }
+    ]
+}

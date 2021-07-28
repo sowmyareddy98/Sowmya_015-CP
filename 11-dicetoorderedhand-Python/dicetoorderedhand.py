@@ -12,4 +12,11 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	pass
+	#pass
+	list=[a,b,c]
+	list.sort()
+	list.reverse()
+	strings = [str(i) for i in list]
+	a_string = "".join(strings)
+	an_integer = int(a_string)
+	return an_integer
