@@ -1,0 +1,25 @@
+{
+    "getaverage.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:35:18",
+            "keyStrokeInfo": "#",
+            "position": "13,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:35:20",
+            "keyStrokeInfo": "\r\n ",
+            "position": "13,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:35:21",
+            "keyStrokeInfo": "\t",
+            "position": "14,1"
+        }
+    ]
+}

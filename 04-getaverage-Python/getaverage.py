@@ -10,5 +10,6 @@
 
 
 def fun_getaverage(s): 
-	return 0.0
+	#return 0.0
+	
 
