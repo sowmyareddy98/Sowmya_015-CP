@@ -22,4 +22,5 @@
 
 def inverselookandsay(a):
 	# Your code goes here
-	pass
+	#pass
+	
