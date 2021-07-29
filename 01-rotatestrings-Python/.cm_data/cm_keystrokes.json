@@ -461,6 +461,48 @@
             "keyStrokeTimeStamp": "Wed Jul 28 2021 10:07:25",
             "keyStrokeInfo": ":",
             "position": "11,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:00:57",
+            "keyStrokeInfo": "",
+            "position": "11,4"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:00:58",
+            "keyStrokeInfo": "  n=n%len(s)\r\n    rotated= s[n:] + s[:n]\r\n    return rotated",
+            "position": "11,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:01:04",
+            "keyStrokeInfo": "  ",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:01:05",
+            "keyStrokeInfo": "",
+            "position": "12,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:01:07",
+            "keyStrokeInfo": "",
+            "position": "11,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:01:10",
+            "keyStrokeInfo": "",
+            "position": "13,4"
         }
     ]
 }
