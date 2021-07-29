@@ -1,0 +1,53 @@
+{
+    "isfactorish.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:48:46",
+            "keyStrokeInfo": "#",
+            "position": "15,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:48:47",
+            "keyStrokeInfo": "\r\n ",
+            "position": "15,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:48:48",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 32,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:55:19",
+            "keyStrokeInfo": "def noofDigits(n):\r\n    c = 0\r\n    while(n > 0):\r\n        n = n//10\r\n        c += 1\r\n    return c\r\n\r\n\r\ndef isFactorish(n):\r\n    t = abs(n)\r\n    n = abs(n)\r\n    \r\n\r\n    if(noofDigits(n) != 3 ):\r\n        return False\r\n\r\n    d1 = n % 10\r\n    n = n // 10\r\n    d2 = n % 10\r\n    n = n // 10\r\n    d3 = n % 10\r\n\r\n    if(d1 == 0 or d2 == 0 or d3 == 0):\r\n        return False\r\n\r\n    if(d1 == d2 or d2 == d3 or d3 == d1):\r\n        return False\r\n\r\n    if (t%d1 == 0 and t%d2 == 0 or t%d3 == 0):\r\n        return True\r\n\r\n    return False ",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:55:34",
+            "keyStrokeInfo": " fun_isfactorish(n):",
+            "position": "21,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:55:40",
+            "keyStrokeInfo": "",
+            "position": "45,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:55:40",
+            "keyStrokeInfo": "",
+            "position": "45,1"
+        }
+    ]
+}
