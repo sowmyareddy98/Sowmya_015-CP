@@ -1,0 +1,102 @@
+{
+    "recursion_onlyevendigits.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:14",
+            "keyStrokeInfo": "#",
+            "position": "12,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:16",
+            "keyStrokeInfo": "\r\n  ",
+            "position": "12,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:17",
+            "keyStrokeInfo": "\t",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:18",
+            "keyStrokeInfo": "\t",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:22",
+            "keyStrokeInfo": "\r\n",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:22",
+            "keyStrokeInfo": "\r\n",
+            "position": "11,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:23",
+            "keyStrokeInfo": "\r\n",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:23",
+            "keyStrokeInfo": "\r\n",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:26",
+            "keyStrokeInfo": "v",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:26",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:27",
+            "keyStrokeInfo": "def getEvenDigits(n,i=0,x=0):\r\n    if(n == 0):\r\n        return x\r\n    else:\r\n        rem = n%10\r\n        if(rem % 2 == 0):\r\n            x += rem*(10**(i))\r\n            i+=1 \r\n        return getEvenDigits(n//10,i,x)\r\n        \r\ndef onlyEvenDigitsHelper(l,res=[]):\r\n    if(l == []):\r\n        return res\r\n    else:\r\n        res.append(getEvenDigits(l[0]))\r\n        return onlyEvenDigitsHelper(l[1:],res)\r\n        \r\ndef fun_recursion_onlyevendigits(l): \r\n    if(l == []):\r\n        return []\r\n    return onlyEvenDigitsHelper(l,[])",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:34",
+            "keyStrokeInfo": "",
+            "position": "35,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:34",
+            "keyStrokeInfo": "",
+            "position": "35,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 10:29:35",
+            "keyStrokeInfo": "",
+            "position": "34,1"
+        }
+    ]
+}
