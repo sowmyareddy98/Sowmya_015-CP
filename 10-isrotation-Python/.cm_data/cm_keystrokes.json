@@ -55,6 +55,27 @@
             "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:41",
             "keyStrokeInfo": "",
             "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 09:56:26",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "13,7"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 09:56:36",
+            "keyStrokeInfo": "s=str(x)\r\n    r=str(y)\r\n    rev=r[::-1]\r\n    if s==r:\r\n        return True\r\n    else:\r\n        \r\n        if len(s)==len(r):\r\n            res=s[len(s)-2:]+s[0:len(s)-2]\r\n            \r\n            if res==r:\r\n                return True\r\n            elif s==rev:\r\n                return True\r\n            else:\r\n                return False      \r\n        else:\r\n            return False",
+            "position": "14,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 09:56:41",
+            "keyStrokeInfo": "\t",
+            "position": "31,1"
         }
     ]
 }
