@@ -1,0 +1,39 @@
+{
+    "inverselookandsay.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:42:28",
+            "keyStrokeInfo": "#",
+            "position": "25,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:42:32",
+            "keyStrokeInfo": "\r\n ",
+            "position": "25,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:42:32",
+            "keyStrokeInfo": "\t",
+            "position": "26,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:50",
+            "keyStrokeInfo": "\r\n",
+            "position": "4,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:52",
+            "keyStrokeInfo": "",
+            "position": "4,3"
+        }
+    ]
+}
