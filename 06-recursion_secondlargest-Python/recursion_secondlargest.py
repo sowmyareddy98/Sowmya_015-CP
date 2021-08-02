@@ -15,4 +15,10 @@
 
 def recursion_secondlargest(L):
 	# Your code goes here
-	pass
+	#pass
+	if len(L)==0 or len(L)==1:
+		return None
+	else:
+		z=max(L)
+		L.remove(z)
+		return max(L)
