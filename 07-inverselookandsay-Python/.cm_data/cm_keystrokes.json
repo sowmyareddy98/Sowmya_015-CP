@@ -34,6 +34,27 @@
             "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:52",
             "keyStrokeInfo": "",
             "position": "4,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 15:53:33",
+            "keyStrokeInfo": "\r\n ",
+            "position": "25,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 15:53:35",
+            "keyStrokeInfo": "\t",
+            "position": "26,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 15:53:37",
+            "keyStrokeInfo": "res=[]\r\n\tif a==[(),]:\r\n\t\treturn []\r\n\telse:\t\r\n\t\tfor i in a:\r\n\t\t\tres=res+[i[1]]*i[0]\r\n\treturn res",
+            "position": "26,2"
         }
     ]
 }
