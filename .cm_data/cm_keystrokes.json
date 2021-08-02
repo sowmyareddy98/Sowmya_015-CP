@@ -20,6 +20,20 @@
             "keyStrokeTimeStamp": "Mon Aug 02 2021 19:48:11",
             "keyStrokeInfo": "res=[]\r\n    for i in range(len(L)):\r\n        if L[i] not in res:\r\n            res.append(L[i])\r\n    return res",
             "position": "14,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:49:17",
+            "keyStrokeInfo": "p",
+            "position": "18,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:49:19",
+            "keyStrokeInfo": "",
+            "position": "18,15"
         }
     ]
 }
