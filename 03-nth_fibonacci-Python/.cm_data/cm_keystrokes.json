@@ -1,0 +1,60 @@
+{
+    "nth_fibonacci.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:39:48",
+            "keyStrokeInfo": "#",
+            "position": "12,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:39:49",
+            "keyStrokeInfo": "\r\n ",
+            "position": "12,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:39:50",
+            "keyStrokeInfo": "``",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:39:52",
+            "keyStrokeInfo": "",
+            "position": "13,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:39:53",
+            "keyStrokeInfo": "\t",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:41:50",
+            "keyStrokeInfo": " a = 1\r\n    b = 1\r\n    if n == 0:\r\n        return b\r\n    else:\r\n        for i in range(0,n-1):\r\n            c = a + b\r\n            a = b\r\n            b = c\r\n        return b",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:41:53",
+            "keyStrokeInfo": "",
+            "position": "13,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:42:02",
+            "keyStrokeInfo": "\t",
+            "position": "22,1"
+        }
+    ]
+}
