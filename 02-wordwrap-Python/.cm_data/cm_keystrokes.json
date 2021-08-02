@@ -1,0 +1,151 @@
+{
+    "wordwrap.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:02",
+            "keyStrokeInfo": "3",
+            "position": "20,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:04",
+            "keyStrokeInfo": "\r\n ",
+            "position": "20,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:07",
+            "keyStrokeInfo": "",
+            "position": "20,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:08",
+            "keyStrokeInfo": "3",
+            "position": "20,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:10",
+            "keyStrokeInfo": "",
+            "position": "20,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:11",
+            "keyStrokeInfo": "#",
+            "position": "20,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:15",
+            "keyStrokeInfo": "\r\n ",
+            "position": "20,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:43:16",
+            "keyStrokeInfo": "\t",
+            "position": "21,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:08",
+            "keyStrokeInfo": " str1=[]\r\n    sub=s\r\n    sub=sub.strip()\r\n    sub=(\"-\".join(sub.split()))\r\n    for j in range(0,len(sub),n):\r\n        str1.append(sub[j:j+n])\r\n",
+            "position": "21,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:10",
+            "keyStrokeInfo": "",
+            "position": "21,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:16",
+            "keyStrokeInfo": "",
+            "position": "21,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:18",
+            "keyStrokeInfo": "",
+            "position": "21,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:21",
+            "keyStrokeInfo": "",
+            "position": "21,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:24",
+            "keyStrokeInfo": "t",
+            "position": "21,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:24",
+            "keyStrokeInfo": "r",
+            "position": "21,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:26",
+            "keyStrokeInfo": "str",
+            "position": "21,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:32",
+            "keyStrokeInfo": "\t",
+            "position": "31,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:44:59",
+            "keyStrokeInfo": "",
+            "position": "26,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:45:21",
+            "keyStrokeInfo": "",
+            "position": "21,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:45:32",
+            "keyStrokeInfo": "str1=[]\r\n    sub=s\r\n    sub=sub.strip()\r\n    sub=(\"-\".join(sub.split()))\r\n    for j in range(0,len(sub),n):\r\n        str1.append(sub[j:j+n])\r\n    return('\\n'.join(map(str,str1)))",
+            "position": "21,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 19:45:40",
+            "keyStrokeInfo": "\t",
+            "position": "31,1"
+        }
+    ]
+}

@@ -17,7 +17,15 @@
 
 
 def fun_wordwrap(s, n):
-	return ""
+	#return ""
+	str1=[]
+	sub=s
+	sub=sub.strip()
+	sub=("-".join(sub.split()))
+	for j in range(0,len(sub),n):
+		str1.append(sub[j:j+n])
+	return('\n'.join(map(str,str1)))
+ 
 
 
  
