@@ -1,0 +1,67 @@
+{
+    "isrectangular.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:37",
+            "keyStrokeInfo": "3",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:39",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:42",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:44",
+            "keyStrokeInfo": "#",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:45",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:07:46",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:08:37",
+            "keyStrokeInfo": " for i in l:\r\n        if len(i) != len(l[0]):\r\n            return False\r\n    return True",
+            "position": "9,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:08:44",
+            "keyStrokeInfo": "\t",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 20:08:49",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        }
+    ]
+}
