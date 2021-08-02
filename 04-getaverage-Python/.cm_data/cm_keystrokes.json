@@ -20,6 +20,13 @@
             "keyStrokeTimeStamp": "Thu Jul 29 2021 14:35:21",
             "keyStrokeInfo": "\t",
             "position": "14,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 14:39:06",
+            "keyStrokeInfo": "x = []\r\n\ty = s.split(',')\r\n\t\r\n\tfor i in y:\r\n\t\tif i.isdigit():\r\n\t\t\tx.append(int(i))\r\n\tif len(x)==0:\r\n\t\treturn 0\r\n\treturn sum(x)/len(x)",
+            "position": "14,2"
         }
     ]
 }
