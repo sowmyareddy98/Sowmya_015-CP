@@ -18,7 +18,7 @@ def SayHi(Dog):
 d1 = Dog('Shadow', 4)
 d2 = Dog('Tommy', 3)
 
-SayHi(d1) #Hi, my name is Dot and I am 4 years old!
-SayHi(d2) #Hi, my name is Elf and I am 3 years old!
+SayHi(d1) #Hi, my name is Shadow and I am 4 years old!
+SayHi(d2) #Hi, my name is Tommy and I am 3 years old!
     
     
