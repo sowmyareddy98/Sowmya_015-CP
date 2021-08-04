@@ -5,8 +5,8 @@ import pytest
 
 
 @pytest.mark.parametrize('x, result',[
-	(0, 309),
-	(418, 1),
+	(0,309),
+	(1,418),
 	(462, 2),
 	(474, 3),
 	(575, 4),
