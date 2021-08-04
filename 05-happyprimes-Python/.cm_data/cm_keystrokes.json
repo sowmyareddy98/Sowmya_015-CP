@@ -1,0 +1,144 @@
+{
+    "happyprimes.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:53:48",
+            "keyStrokeInfo": "3",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:54:04",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:54:05",
+            "keyStrokeInfo": "3",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:54:06",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:54:08",
+            "keyStrokeInfo": "#",
+            "position": "14,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:52",
+            "keyStrokeInfo": "\r\n",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:52",
+            "keyStrokeInfo": "\r\n",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:52",
+            "keyStrokeInfo": "\r\n",
+            "position": "14,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:53",
+            "keyStrokeInfo": "\r\n",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:53",
+            "keyStrokeInfo": "\r\n",
+            "position": "16,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:57",
+            "keyStrokeInfo": "def checkprime(number):\r\n03\r\n    if number < 2:\r\n04\r\n        ans= False\r\n05\r\n    else:\r\n06\r\n        for d in range(2,(number/2)+1):\r\n07\r\n            if number%d ==0:\r\n08\r\n                ans = False\r\n09\r\n                break\r\n10\r\n        else:\r\n11\r\n            ans = True\r\n12\r\n        return ans\r\n",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 15:59:57",
+            "keyStrokeInfo": "    ",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:00:01",
+            "keyStrokeInfo": "",
+            "position": "13,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:00:01",
+            "keyStrokeInfo": "",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:00:02",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:00:02",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:14:28",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if (n < 2):\r\n        return False\r\n    if (n == 2):\r\n        return True\r\n    if (n % 2 == 0):\r\n        return False\r\n    maxFactor = round(n**0.5)\r\n    for factor in range(3,maxFactor+1,2):\r\n        if (n % factor == 0):\r\n            return False\r\n    return True\r\n#helper function to find the squares of digits\r\ndef numSquareSum(n): \r\n    squareSum = 0; \r\n    while(n): \r\n        squareSum += (n % 10) * (n % 10); \r\n        n = int(n / 10); \r\n    return squareSum;",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:14:31",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "36,10"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:15:00",
+            "keyStrokeInfo": " slow = n; \r\n    fast = n; \r\n    while(True): \r\n          \r\n    \r\n   \r\n        slow = numSquareSum(slow); \r\n\r\n        fast = numSquareSum(numSquareSum(fast)); \r\n        if(slow != fast): \r\n            continue; \r\n        else: \r\n            break; \r\n  \r\n\r\n    return (slow == 1);",
+            "position": "37,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 16:15:03",
+            "keyStrokeInfo": "",
+            "position": "37,5"
+        }
+    ]
+}
