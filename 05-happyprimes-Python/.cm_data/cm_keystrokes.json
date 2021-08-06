@@ -1,0 +1,193 @@
+{
+    "happyprimes.py": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:41:35",
+            "keyStrokeInfo": "\r\ndef ishappyprimenumber(n):\r\n    # Your code goes here\r\n    pass",
+            "position": "11,55"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:38",
+            "keyStrokeInfo": "",
+            "position": "14,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:38",
+            "keyStrokeInfo": "",
+            "position": "14,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:38",
+            "keyStrokeInfo": "",
+            "position": "14,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:39",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:39",
+            "keyStrokeInfo": "",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:48",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 35,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:50",
+            "keyStrokeInfo": "def ishappyprimenumber(m):\r\n    if(ishappynumber(m) and isprime(m)):\r\n        return True\r\n    return False\r\n \r\ndef ishappynumber(n):\r\n    if(n==1):\r\n        return True\r\n    while (n>=10):\r\n        n=squarenum(n)\r\n        if(n==1):\r\n            return True\r\n    return False\r\n \r\ndef squarenum(m):\r\n    sum=0\r\n    while(m>0):\r\n        rem=m%10\r\n        sum+=(rem*rem)\r\n        m//=10\r\n    return sum\r\n \r\ndef isprime(y):\r\n    if (y <= 1):\r\n        return False\r\n    if (y == 2):\r\n        return True\r\n    if (y%2==0):\r\n        return False\r\n    maxfactor=round(y**0.5)\r\n    for factor in range(3,maxfactor+1,2):\r\n        if (y%factor==0):\r\n            return False\r\n  \r\n  return Tru",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:42:51",
+            "keyStrokeInfo": "e",
+            "position": "46,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:43:03",
+            "keyStrokeInfo": "  ",
+            "position": "46,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:00",
+            "keyStrokeInfo": "  if(n<=1):\r\n        return False\r\n    else:\r\n        for i in range(2,n+1):\r\n            if(n%i==0):\r\n                return False\r\n            else:\r\n                return True",
+            "position": "35,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:00",
+            "keyStrokeInfo": "    ",
+            "position": "36,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:05",
+            "keyStrokeInfo": "",
+            "position": "35,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:06",
+            "keyStrokeInfo": "y",
+            "position": "35,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:08",
+            "keyStrokeInfo": "y",
+            "position": "35,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:10",
+            "keyStrokeInfo": "",
+            "position": "38,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:10",
+            "keyStrokeInfo": "y",
+            "position": "38,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:12",
+            "keyStrokeInfo": "y",
+            "position": "38,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:15",
+            "keyStrokeInfo": "    ",
+            "position": "37,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:45",
+            "keyStrokeInfo": "",
+            "position": "37,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:46",
+            "keyStrokeInfo": " ",
+            "position": "37,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:46",
+            "keyStrokeInfo": " ",
+            "position": "37,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:51",
+            "keyStrokeInfo": "",
+            "position": "39,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:52",
+            "keyStrokeInfo": "y",
+            "position": "39,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:45:53",
+            "keyStrokeInfo": "y",
+            "position": "39,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:46:36",
+            "keyStrokeInfo": "s",
+            "position": "42,28"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:46:37",
+            "keyStrokeInfo": "",
+            "position": "42,28"
+        }
+    ]
+}
