@@ -1,0 +1,67 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:14",
+            "keyStrokeInfo": "#",
+            "position": "21,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:16",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "21,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:17",
+            "keyStrokeInfo": "    ",
+            "position": "22,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:18",
+            "keyStrokeInfo": "",
+            "position": "22,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:33",
+            "keyStrokeInfo": " d={}\r\n    for i in oscarResults:\r\n        if i[1] not in d:\r\n            d[i[1]]=1\r\n        else:\r\n            d[i[1]]+=1\r\n    return d",
+            "position": "22,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:45:35",
+            "keyStrokeInfo": "",
+            "position": "22,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:08:00",
+            "keyStrokeInfo": "\r\n",
+            "position": "28,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:08:01",
+            "keyStrokeInfo": "\r\n",
+            "position": "29,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:08:01",
+            "keyStrokeInfo": "\r\n",
+            "position": "30,1"
+        }
+    ]
+}
