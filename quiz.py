@@ -6,20 +6,21 @@
 
 def bestQuiz(l):
     # Your  code goes ehre...
-    pass
+    #pass 
+      
 
 def testBestQuiz():
     print('Testing bestQuiz()...', end='')
     a = [ [ 88,  80, 91 ],
-          [ 68, 100, -1 ]]
+	    [ 68, 100, -1 ]]
     assert(bestQuiz(a) == 2)
     a = [ [ 88,  80, 80 ],
-          [ 68, 100, 100 ]]
+	    [ 68, 100, 100 ]]
     assert(bestQuiz(a) == 1)
     a = [ [88, -1, -1 ],
-          [68, -1, -1 ]]
+	    [68, -1, -1 ]]
     assert(bestQuiz(a) == 0)
     a = [ [-1, -1, -1 ],
-          [-1, -1, -1 ]]
+	    [-1, -1, -1 ]]
     assert(bestQuiz(a) == None)
     print('All test cases passed...!')
