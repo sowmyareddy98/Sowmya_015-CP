@@ -5,4 +5,21 @@
 
 def recursion_powersof3ton(n):
 	# Your code goes here
-	pass
+	#pass
+	if(n<=0):
+		return None
+	elif(n==1):
+		return([int(n)])
+	else:
+		return(recurse(n,y=0))
+		
+def recurse(n,y):
+	if(n<y):
+		return([])
+	elif((3**y)<=n):
+		return([3**y]+recurse(n,y+1))
+	else:
+		return([])
+
+
+
