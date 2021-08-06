@@ -16,8 +16,7 @@
 
 def topScorer(data):
     # Your code goes here...
-    return ""
-
+    #return ""
 data = '''\
 Fred,10,20,30,40
 Wilma,10,20,30
