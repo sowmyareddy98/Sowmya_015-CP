@@ -601,6 +601,83 @@
             "keyStrokeTimeStamp": "Thu Aug 05 2021 15:29:35",
             "keyStrokeInfo": "",
             "position": "10,7"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:10",
+            "keyStrokeInfo": "count=[0,0,0]\r\n      avg=[0,0,0]\r\n      for i in range(len(l)):\r\n            for j in range(len(l[0])):\r\n                  if (l[i][j]!=-1):\r\n                        avg[j]+=l[i][j]\r\n                        count[j]+=1\r\n      #print(count)\r\n      #print(avg)  \r\n      max=0\r\n      res=0\r\n      for j in range(len(l[0])):\r\n            if count[j]!=0:\r\n                  avg[j]=avg[j]/count[j]\r\n            else:\r\n                  avg[j]=0\r\n            #print(max,avg[j])      \r\n            if max<avg[j]:\r\n                  max=avg[j]\r\n                  res=j\r\n      #print (max)\r\n      if max==0:\r\n            return None\r\n      else:\r\n            return res",
+            "position": "10,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:16",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:17",
+            "keyStrokeInfo": " ",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:23",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:24",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:36",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:43",
+            "keyStrokeInfo": "",
+            "position": "19,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:46",
+            "keyStrokeInfo": "",
+            "position": "20,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:54",
+            "keyStrokeInfo": "",
+            "position": "21,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:35:57",
+            "keyStrokeInfo": "",
+            "position": "31,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 10:36:00",
+            "keyStrokeInfo": "",
+            "position": "33,5"
         }
     ]
 }
