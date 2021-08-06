@@ -1,0 +1,46 @@
+{
+    "nthpronicnumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:00",
+            "keyStrokeInfo": "#",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:01",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:02",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:40",
+            "keyStrokeInfo": "",
+            "position": "6,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:41",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:39:42",
+            "keyStrokeInfo": "import math\r\ndef checkPronic(x) :\r\n    i = 0\r\n    while ( i <= (int)(math.sqrt(x)) ) :\r\n         \r\n        # Checking Pronic Number\r\n        # by multiplying consecutive\r\n        # numbers\r\n        if ( x == i * (i + 1)) :\r\n            return True\r\n        i = i + 1\r\n \r\n    return False\r\n \r\ndef nthpronicnumber(n):\r\n    count=0\r\n    j=0\r\n    while(count<=n):\r\n        if(checkPronic(j)):\r\n            count+=1\r\n            res=j\r\n        j+=1\r\n    return res",
+            "position": "6,1"
+        }
+    ]
+}
